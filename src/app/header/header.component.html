@@ -1,0 +1,9 @@
+<div>
+  <label>{{ 'header.selectLanguage' | translate }}</label>
+
+  <select #selectedLanguage (change)="onSelectLanguage(selectedLanguage.value)">
+    <option *ngFor="let language of languages" [value]="language">
+      {{ language }}
+    </option>
+  </select>
+</div>

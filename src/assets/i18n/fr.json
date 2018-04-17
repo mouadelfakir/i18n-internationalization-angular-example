@@ -1,0 +1,14 @@
+{
+  "app": {
+    "greeting": "Bonjour {{ firstname }}!",
+    "message": "Ceci est une démo i18n avec ngx-translate !"
+  },
+
+  "header" : {
+    "selectLanguage" : "Sélectionner une langue"
+  },
+
+  "footer" : {
+    "description" : "Propulsé par Angular © 2018"
+  }
+}
